@@ -1,0 +1,73 @@
+{
+  "$schema": "../fight.schema.json",
+  "id": "m12sp1",
+  "name": "M12S Part 1 - The Lyndwurm",
+  "endTime": 438,
+  "timeline": {
+    "15": [
+      {
+        "type": "raidwide",
+        "abilityName": "The Fixer"
+      }
+    ],
+    "41": [
+      {
+        "type": "positioning",
+        "abilityName": "Mortal Slayer"
+      }
+    ],
+    "50": [
+      {
+        "type": "positioning",
+        "abilityName": "Mortal Slayer"
+      }
+    ],
+    "70": [
+      {
+        "type": "mechanics",
+        "abilityName": "Grotesquerie: Act 1"
+      }
+    ],
+    "79": [
+      {
+        "type": "avoidable",
+        "abilityName": "Phagocyte Spotlight x 4"
+      }
+    ],
+    "88": [
+      {
+        "type": "avoidable",
+        "abilityName": "Ravenous Reach"
+      },
+      {
+        "type": "positioning",
+        "abilityName": "Hemorrhagic Projection"
+      },
+      {
+        "type": "targeted",
+        "abilityName": "Dramatic Lysis"
+      },
+      {
+        "type": "targeted",
+        "abilityName": "Fourth Wall Fusion"
+      }
+    ],
+    "97": [
+      {
+        "type": "avoidable",
+        "abilityName": "Burst"
+      },
+      {
+        "type": "targeted",
+        "abilityName": "Fourth Wall Fusion"
+      },
+      {
+        "type": "tankbuster",
+        "abilityName": "Visceral Burst"
+      }
+    ]
+  },
+  "descriptions": {
+    "fixer": "Raid Damage"
+  }
+}
