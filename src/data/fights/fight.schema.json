@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "endTime": {
+      "type": "number"
+    },
+    "timeline": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "abilityName": {
+            "type": "string"
+          },
+          "abilityIcon": {
+            "type": "string"
+          }
+        },
+        "required": ["type", "abilityName", "abilityIcon"]
+      }
+    }
+  },
+  "required": ["id", "name", "endTime", "timeline"]
+}

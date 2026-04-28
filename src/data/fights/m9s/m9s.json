@@ -1,0 +1,13 @@
+{
+  "$schema": "../fight.schema.json",
+  "id": "m9s",
+  "name": "M9S",
+  "endTime": 1234567890,
+  "timeline": {
+    "1000": {
+      "type": "raidwide",
+      "abilityName": "Example Raidwide",
+      "abilityIcon": "https://example.com/raidwide-icon.png"
+    }
+  }
+}
